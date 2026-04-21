@@ -16,15 +16,15 @@ An AI-powered generator for text, code, and images — built with React, Vite, a
 - Vite
 - Tailwind CSS + shadcn/ui
 - NVIDIA NIM API (`qwen/qwen3.5-122b-a10b`) for text & code
-- Pollinations.ai for image generation
+- Pollinations.ai for image generation (free, no key needed)
 
 ## Getting Started
 
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/kainos-gen.git
-cd kainos-gen
+git clone https://github.com/GiftMahlambi/kainos-Content-Genator.git
+cd kainos-Content-Genator
 ```
 
 ### 2. Install dependencies
@@ -53,10 +53,14 @@ npm run dev
 
 Open http://localhost:8080
 
+## How It Works
+
+- **Text & Code** — Powered by NVIDIA NIM `qwen/qwen3.5-122b-a10b`, one of the most capable free models available
+- **Images** — Generated via Pollinations.ai using Flux — no API key or account needed
+- **Background Jobs** — Every generation runs in the background so you can switch tabs freely and get notified when done
+
 ## Environment Variables
 
 | Variable | Description |
 |---|---|
 | `VITE_NVIDIA_API_KEY` | NVIDIA NIM API key — get free at https://build.nvidia.com |
-| `VITE_SUPABASE_URL` | Supabase project URL (optional) |
-| `VITE_SUPABASE_PUBLISHABLE_KEY` | Supabase anon key (optional) |
