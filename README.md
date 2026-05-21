@@ -1,5 +1,5 @@
 # Kainos Gen
-
+Live site: https://kainos-content-gen.netlify.app/
 An AI-powered generator for text, code, and images — built with React, Vite, and NVIDIA NIM.
 
 ## Features
